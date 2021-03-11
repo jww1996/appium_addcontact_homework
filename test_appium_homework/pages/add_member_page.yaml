@@ -1,0 +1,2 @@
+- action: find_click
+  locator: //*[@text="手动输入添加"]

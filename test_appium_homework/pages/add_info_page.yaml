@@ -1,0 +1,18 @@
+- action: find_sendkeys
+  locator: //*[@resource-id="com.tencent.wework:id/au0" and @text="必填"]
+  value: "{name}"
+
+- action: find_click
+  locator: //*[@resource-id="com.tencent.wework:id/aut" and @text="男"]
+
+- action: wait_click
+  locator: //*[@resource-id="com.tencent.wework:id/dqn" and @text="男"]
+
+- action: find_sendkeys
+  locator: //*[@text="手机号"]
+  value: "{number}"
+
+- action: find_click
+  locator: //*[@text="保存"]
+
+
